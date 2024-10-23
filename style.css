@@ -1,0 +1,61 @@
+#header {
+  color: #fff;
+  background: #e74c3c;
+}
+
+#logo {
+  font-size: 2rem;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 10px;
+  display: block;
+}
+
+#menu li a:hover {
+  background-color: #c0392b;
+}
+
+#banner {
+  background: url("./images/banner.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+
+.banner-title {
+  padding-top: 5rem;
+}
+
+.banner-title h1 {
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+
+.banner-title p.lead {
+  color: #fff;
+  background-color: rgba(231, 76, 60, 0.7);
+  padding: 10px;
+}
+
+.service-box {
+  text-align: center;
+}
+
+.service-box i.icon {
+  color: #e74c3c;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
